@@ -28,7 +28,7 @@ var emptyVox = {
 };
 
 let palette;
-fs.readFile('./military_bomber.vox', (error, buffer) => {
+fs.readFile('./frigate.vox', (error, buffer) => {
     if (error) throw error;
         let data = readVox(buffer);
         palette = data.rgba.values;
@@ -73,7 +73,7 @@ async function loadSchematic () {
                             let A = parseInt(hexColor[3], 16);
 
                             colorIndex = blockPalette[blockId];
-                            emptyVox.rgba.values.push({r: 32, g: 32, b: 32, a: A});
+                            emptyVox.rgba.values.push({r: R, g: G, b: B, a: A});
                             emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: colorIndex });
                         }
                     }
