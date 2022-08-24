@@ -28,7 +28,7 @@ let blocks = {
 //acacia_wall_sign
 //175: "",
 //acacia_wood
-54: "",
+54: "ABA59EFF",
 //activator_rail
 //354: "",
 //air
@@ -42,13 +42,13 @@ let blocks = {
 //ancient_debris
 749: "",
 //andesite
-6: "",
+6: "C1C1C1FF",
 //andesite_slab
-664: "",
+664: "C1C1C1FF",
 //andesite_stairs
-651: "",
+651: "C1C1C1FF",
 //andesite_wall
-675: "",
+675: "C1C1C1FF",
 //anvil
 339: "",
 //attached_melon_stem
@@ -70,7 +70,7 @@ let blocks = {
 //barrier
 //391: "",
 //basalt
-204: "",
+204: "929196FF",
 //beacon
 291: "",
 //bedrock
@@ -130,7 +130,7 @@ let blocks = {
 //black_concrete
 571: "333946FF",
 //black_concrete_powder
-587: "",
+587: "595B63FF",
 //black_glazed_terracotta
 555: "8D6064FF",
 //black_shulker_box
@@ -140,7 +140,7 @@ let blocks = {
 //black_stained_glass_pane
 387: "58585888",
 //black_terracotta
-371: "",
+371: "6B5448FF",
 //black_wall_banner
 //461: "",
 //black_wool
@@ -178,15 +178,15 @@ let blocks = {
 //blue_shulker_box
 535: "",
 //blue_stained_glass
-225: "",
+225: "7C94DA88",
 //blue_stained_glass_pane
-383: "",
+383: "7C94DA88",
 //blue_terracotta
 367: "",
 //blue_wall_banner
 //457: "",
 //blue_wool
-119: "",
+119: "7E82CEFF",
 //bone_block
 520: "",
 //bookshelf
@@ -220,7 +220,7 @@ let blocks = {
 //brown_carpet
 //417: "",
 //brown_concrete
-568: "",
+568: "A58563FF",
 //brown_concrete_powder
 584: "BA9C7FFF",
 //brown_glazed_terracotta
@@ -228,7 +228,7 @@ let blocks = {
 //brown_mushroom
 //138: "",
 //brown_mushroom_block
-246: "",
+246: "C9B199FF",
 //brown_shulker_box
 536: "",
 //brown_stained_glass
@@ -288,7 +288,7 @@ let blocks = {
 //chipped_anvil
 340: "",
 //chiseled_deepslate
-888: "",
+888: "7F7F80FF",
 //chiseled_nether_bricks
 774: "77565DFF",
 //chiseled_polished_blackstone
@@ -300,7 +300,7 @@ let blocks = {
 //chiseled_sandstone
 78: "",
 //chiseled_stone_bricks
-239: "",
+239: "B6B6B6FF",
 //chorus_flower
 506: "",
 //chorus_plant
@@ -310,9 +310,9 @@ let blocks = {
 //coal_block
 422: "474747FF",
 //coal_ore
-35: "",
+35: "ACACACFF",
 //coarse_dirt
-10: "",
+10: "B69D85FF",
 //cobbled_deepslate
 872: "969698FF",
 //cobbled_deepslate_slab
@@ -322,13 +322,13 @@ let blocks = {
 //cobbled_deepslate_wall
 875: "969698FF",
 //cobblestone
-12: "",
+12: "BCBBBCFF",
 //cobblestone_slab
-477: "",
+477: "BCBBBCFF",
 //cobblestone_stairs
-171: "",
+171: "BCBBBCFF",
 //cobblestone_wall
-292: "",
+292: "BCBBBCFF",
 //cobweb
 //100: "",
 //cocoa
@@ -344,7 +344,7 @@ let blocks = {
 //copper_block
 825: "",
 //copper_ore
-826: "",
+826: "BABAB7FF",
 //cornflower
 //135: "",
 //cracked_deepslate_bricks
@@ -354,9 +354,9 @@ let blocks = {
 //cracked_nether_bricks
 775: "6F4F56FF",
 //cracked_polished_blackstone_bricks
-763: "",
+763: "736B73FF",
 //cracked_stone_bricks
-238: "",
+238: "B5B5B5FF",
 //crafting_table
 158: "",
 //creeper_head
@@ -368,7 +368,7 @@ let blocks = {
 //crimson_door
 //734: "",
 //crimson_fence
-//724: "",
+724: "A9798FFF",
 //crimson_fence_gate
 //728: "",
 //crimson_fungus
@@ -378,7 +378,7 @@ let blocks = {
 //crimson_nylium
 710: "",
 //crimson_planks
-718: "",
+718: "A9798FFF",
 //crimson_pressure_plate
 //722: "",
 //crimson_roots
@@ -386,9 +386,9 @@ let blocks = {
 //crimson_sign
 //736: "",
 //crimson_slab
-720: "",
+720: "A9798FFF",
 //crimson_stairs
-730: "",
+730: "A9798FFF",
 //crimson_stem
 706: "",
 //crimson_trapdoor
@@ -430,15 +430,15 @@ let blocks = {
 //cyan_shulker_box
 533: "",
 //cyan_stained_glass
-223: "",
+223: "94BBCB88",
 //cyan_stained_glass_pane
-381: "",
+381: "94BBCB88",
 //cyan_terracotta
 365: "9EA1A1FF",
 //cyan_wall_banner
 //455: "",
 //cyan_wool
-117: "",
+117: "51C2C7FF",
 //damaged_anvil
 341: "",
 //dandelion
@@ -448,7 +448,7 @@ let blocks = {
 //dark_oak_door
 //503: "",
 //dark_oak_fence
-//498: "",
+498: "8C7250FF",
 //dark_oak_fence_gate
 //493: "",
 //dark_oak_leaves
@@ -472,7 +472,7 @@ let blocks = {
 //dark_oak_wall_sign
 //177: "",
 //dark_oak_wood
-55: "",
+55: "86765AFF",
 //dark_prismarine
 396: "",
 //dark_prismarine_slab
@@ -484,7 +484,7 @@ let blocks = {
 //dead_brain_coral
 //603: "",
 //dead_brain_coral_block
-593: "",
+593: "B9B5B2FF",
 //dead_brain_coral_fan
 //613: "",
 //dead_brain_coral_wall_fan
@@ -510,7 +510,7 @@ let blocks = {
 //dead_horn_coral
 //606: "",
 //dead_horn_coral_block
-596: "",
+596: "BFBBB8FF",
 //dead_horn_coral_fan
 //616: "",
 //dead_horn_coral_wall_fan
@@ -518,7 +518,7 @@ let blocks = {
 //dead_tube_coral
 //602: "",
 //dead_tube_coral_block
-592: "",
+592: "BEB9B6FF",
 //dead_tube_coral_fan
 //612: "",
 //dead_tube_coral_wall_fan
@@ -526,19 +526,19 @@ let blocks = {
 //deepslate
 871: "",
 //deepslate_brick_slab
-886: "",
+886: "909090FF",
 //deepslate_brick_stairs
-885: "",
+885: "909090FF",
 //deepslate_brick_wall
-887: "",
+887: "909090FF",
 //deepslate_bricks
 884: "909090FF",
 //deepslate_coal_ore
 36: "939394FF",
 //deepslate_copper_ore
-827: "",
+827: "A2A3A0FF",
 //deepslate_diamond_ore
-156: "",
+156: "9BADADFF",
 //deepslate_emerald_ore
 282: "",
 //deepslate_gold_ore
@@ -562,7 +562,7 @@ let blocks = {
 //diamond_block
 157: "",
 //diamond_ore
-155: "",
+155: "B7C4C4FF",
 //diorite
 4: "",
 //diorite_slab
@@ -574,7 +574,7 @@ let blocks = {
 //dirt
 9: "B69D85FF",
 //dirt_path
-512: "",
+512: "B69D85FF",
 //dispenser
 76: "",
 //dragon_egg
@@ -616,7 +616,7 @@ let blocks = {
 //ender_chest
 283: "",
 //exposed_copper
-824: "",
+824: "D0BAABFF",
 //exposed_cut_copper
 830: "CCB8A9FF",
 //exposed_cut_copper_slab
@@ -650,7 +650,7 @@ let blocks = {
 //furnace
 161: "",
 //gilded_blackstone
-768: "",
+768: "81726CFF",
 //glass
 72: "",
 //glass_pane
@@ -662,21 +662,21 @@ let blocks = {
 //gold_block
 140: "",
 //gold_ore
-31: "",
+31: "C7C0ADFF",
 //granite
-2: "",
+2: "C9AB9DFF",
 //granite_slab
-663: "",
+663: "C9AB9DFF",
 //granite_stairs
-650: "",
+650: "C9AB9DFF",
 //granite_wall
-672: "",
+672: "C9AB9DFF",
 //grass
-101: "",
+//101: "",
 //grass_block
-8: "",
+8: "B69D85FF",
 //gravel
-30: "",
+30: "BEBCBBFF",
 //gray_banner
 //437: "",
 //gray_bed
@@ -692,19 +692,19 @@ let blocks = {
 //gray_concrete_powder
 579: "95999CFF",
 //gray_glazed_terracotta
-547: "",
+547: "9BA1A3FF",
 //gray_shulker_box
 531: "",
 //gray_stained_glass
-221: "",
+221: "94949488",
 //gray_stained_glass_pane
-379: "",
+379: "94949488",
 //gray_terracotta
 363: "837168FF",
 //gray_wall_banner
 //453: "",
 //gray_wool
-115: "",
+115: "888D90FF",
 //green_banner
 //443: "",
 //green_bed
@@ -724,15 +724,15 @@ let blocks = {
 //green_shulker_box
 537: "",
 //green_stained_glass
-227: "",
+227: "AABB7CFF",
 //green_stained_glass_pane
-385: "",
+385: "AABB7CFF",
 //green_terracotta
-369: "",
+369: "949B71FF",
 //green_wall_banner
 //459: "",
 //green_wool
-121: "",
+121: "9CAF5CFF",
 //grindstone
 687: "",
 //hanging_roots
@@ -758,11 +758,11 @@ let blocks = {
 //ice
 193: "",
 //infested_chiseled_stone_bricks
-245: "",
+245: "B6B6B6FF",
 //infested_cobblestone
 241: "",
 //infested_cracked_stone_bricks
-244: "",
+244: "B5B5B5FF",
 //infested_deepslate
 891: "",
 //infested_mossy_stone_bricks
@@ -792,7 +792,7 @@ let blocks = {
 //jungle_door
 //501: "",
 //jungle_fence
-//496: "",
+496: "D0B399FF",
 //jungle_fence_gate
 //491: "",
 //jungle_leaves
@@ -800,7 +800,7 @@ let blocks = {
 //jungle_log
 41: "",
 //jungle_planks
-16: "",
+16: "D0B399FF",
 //jungle_pressure_plate
 //184: "",
 //jungle_sapling
@@ -808,9 +808,9 @@ let blocks = {
 //jungle_sign
 //166: "",
 //jungle_slab
-469: "",
+469: "D0B399FF",
 //jungle_stairs
-289: "",
+289: "D0B399FF",
 //jungle_trapdoor
 //233: "",
 //jungle_wall_sign
@@ -828,7 +828,7 @@ let blocks = {
 //lapis_block
 75: "618CC4FF",
 //lapis_ore
-73: "",
+73: "ADB5C4FF",
 //large_amethyst_bud
 //814: "",
 //large_fern
@@ -862,11 +862,11 @@ let blocks = {
 //light_blue_shulker_box
 527: "",
 //light_blue_stained_glass
-217: "",
+217: "AACBED88",
 //light_blue_stained_glass_pane
-375: "",
+375: "AACBED88",
 //light_blue_terracotta
-359: "",
+359: "B2AEC2FF",
 //light_blue_wall_banner
 //449: "",
 //light_blue_wool
@@ -884,7 +884,7 @@ let blocks = {
 //light_gray_concrete
 564: "BABAB3FF",
 //light_gray_concrete_powder
-580: "",
+580: "CDCDC9FF",
 //light_gray_glazed_terracotta
 548: "",
 //light_gray_shulker_box
@@ -936,7 +936,7 @@ let blocks = {
 //lime_wall_banner
 //451: "",
 //lime_wool
-113: "",
+113: "B1DD5AFF",
 //lodestone
 756: "",
 //loom
@@ -968,7 +968,7 @@ let blocks = {
 //magenta_wall_banner
 //448: "",
 //magenta_wool
-110: "",
+110: "E08EDBFF",
 //magma_block
 517: "",
 //medium_amethyst_bud
@@ -990,13 +990,13 @@ let blocks = {
 //mossy_cobblestone_wall
 293: "",
 //mossy_stone_brick_slab
-657: "",
+657: "B3B7ACFF",
 //mossy_stone_brick_stairs
-643: "",
+643: "B3B7ACFF",
 //mossy_stone_brick_wall
-671: "",
+671: "B3B7ACFF",
 //mossy_stone_bricks
-237: "",
+237: "B3B7ACFF",
 //moving_piston
 124: "",
 //mushroom_stem
@@ -1004,17 +1004,17 @@ let blocks = {
 //mycelium
 262: "",
 //nether_brick_fence
-//265: "",
+//265: "74535AFF",
 //nether_brick_slab
-480: "",
+480: "74535AFF",
 //nether_brick_stairs
-266: "",
+266: "74535AFF",
 //nether_brick_wall
-674: "",
+674: "74535AFF",
 //nether_bricks
-264: "",
+264: "74535AFF",
 //nether_gold_ore
-37: "",
+37: "B38071FF",
 //nether_portal
 209: "",
 //nether_quartz_ore
@@ -1028,7 +1028,7 @@ let blocks = {
 //netherite_block
 748: "8C8789FF",
 //netherrack
-201: "",
+201: "A66C6CFF",
 //note_block
 80: "9F846FFF",
 //oak_button
@@ -1060,11 +1060,11 @@ let blocks = {
 //oak_wall_sign
 //172: "",
 //oak_wood
-50: "",
+50: "AF9C7BFF",
 //observer
 522: "",
 //obsidian
-146: "",
+146: "453A57FF",
 //orange_banner
 //431: "",
 //orange_bed
@@ -1076,7 +1076,7 @@ let blocks = {
 //orange_carpet
 //406: "",
 //orange_concrete
-557: "",
+557: "F1A608FF",
 //orange_concrete_powder
 573: "",
 //orange_glazed_terracotta
@@ -1094,11 +1094,11 @@ let blocks = {
 //orange_wall_banner
 //447: "",
 //orange_wool
-109: "",
+109: "F9B54EFF",
 //oxeye_daisy
 //134: "",
 //oxidized_copper
-822: "",
+822: "9AD1BFFF",
 //oxidized_cut_copper
 828: "98CCBBFF",
 //oxidized_cut_copper_slab
@@ -1140,7 +1140,7 @@ let blocks = {
 //pink_wall_banner
 //452: "",
 //pink_wool
-114: "",
+114: "F7C4D7FF",
 //piston
 106: "",
 //piston_head
@@ -1154,41 +1154,41 @@ let blocks = {
 //pointed_dripstone
 //857: "",
 //polished_andesite
-7: "",
+7: "BFC0C0FF",
 //polished_andesite_slab
-666: "",
+666: "BFC0C0FF",
 //polished_andesite_stairs
-653: "",
+653: "BFC0C0FF",
 //polished_basalt
-205: "",
+205: "9F9FA2FF",
 //polished_blackstone
-761: "",
+761: "7E7982FF",
 //polished_blackstone_brick_slab
-765: "",
+765: "78727AFF",
 //polished_blackstone_brick_stairs
-766: "",
+766: "78727AFF",
 //polished_blackstone_brick_wall
-767: "",
+767: "78727AFF",
 //polished_blackstone_bricks
-762: "",
+762: "78727AFF",
 //polished_blackstone_button
 //772: "",
 //polished_blackstone_pressure_plate
 //771: "",
 //polished_blackstone_slab
-770: "",
+770: "7E7982FF",
 //polished_blackstone_stairs
-769: "",
+769: "7E7982FF",
 //polished_blackstone_wall
-773: "",
+773: "7E7982FF",
 //polished_deepslate
 876: "919192FF",
 //polished_deepslate_slab
-878: "",
+878: "919192FF",
 //polished_deepslate_stairs
-877: "",
+877: "919192FF",
 //polished_deepslate_wall
-879: "",
+879: "919192FF",
 //polished_diorite
 5: "",
 //polished_diorite_slab
@@ -1196,11 +1196,11 @@ let blocks = {
 //polished_diorite_stairs
 644: "",
 //polished_granite
-3: "",
+3: "CCADA0FF",
 //polished_granite_slab
-655: "",
+655: "CCADA0FF",
 //polished_granite_stairs
-641: "",
+641: "CCADA0FF",
 //poppy
 //126: "",
 //potatoes
@@ -1340,7 +1340,7 @@ let blocks = {
 //rail
 //170: "",
 //raw_copper_block
-894: "",
+894: "CCAD97FF",
 //raw_gold_block
 895: "",
 //raw_iron_block
@@ -1366,13 +1366,13 @@ let blocks = {
 //red_mushroom_block
 247: "",
 //red_nether_brick_slab
-665: "",
+665: "8F2E35FF",
 //red_nether_brick_stairs
-652: "",
+652: "8F2E35FF",
 //red_nether_brick_wall
-676: "",
+676: "8F2E35FF",
 //red_nether_bricks
-519: "",
+519: "8F2E35FF",
 //red_sand
 29: "",
 //red_sandstone
@@ -1390,13 +1390,13 @@ let blocks = {
 //red_stained_glass_pane
 386: "",
 //red_terracotta
-370: "",
+370: "C58677FF",
 //red_tulip
 //130: "",
 //red_wall_banner
 //460: "",
 //red_wool
-122: "",
+122: "D06D67FF",
 //redstone_block
 347: "",
 //redstone_lamp
@@ -1416,7 +1416,7 @@ let blocks = {
 //respawn_anchor
 751: "",
 //rooted_dirt
-870: "",
+870: "B69D85FF",
 //rose_bush
 //426: "",
 //sand
@@ -1434,7 +1434,7 @@ let blocks = {
 //sculk_sensor
 //821: "",
 //sea_lantern
-403: "",
+403: "D6E5E0FF",
 //sea_pickle
 //632: "",
 //seagrass
@@ -1478,9 +1478,9 @@ let blocks = {
 //smooth_sandstone_stairs
 648: "",
 //smooth_stone
-485: "",
+485: "CFCFCFFF",
 //smooth_stone_slab
-473: "",
+473: "CFCFCFFF",
 //snow
 192: "",
 //snow_block
@@ -1510,7 +1510,7 @@ let blocks = {
 //spruce_door
 //499: "",
 //spruce_fence
-//494: "",
+494: "B39C79FF",
 //spruce_fence_gate
 //489: "",
 //spruce_leaves
@@ -1534,27 +1534,27 @@ let blocks = {
 //spruce_wall_sign
 //173: "",
 //spruce_wood
-51: "",
+51: "846B49FF",
 //sticky_piston
 99: "",
 //stone
-1: "",
+1: "BABABAFF",
 //stone_brick_slab
-479: "",
+479: "B8B8B8FF",
 //stone_brick_stairs
-261: "",
+261: "B8B8B8FF",
 //stone_brick_wall
-673: "",
+673: "B8B8B8FF",
 //stone_bricks
-236: "",
+236: "B8B8B8FF",
 //stone_button
 //191: "",
 //stone_pressure_plate
 //179: "",
 //stone_slab
-472: "",
+472: "BABABAFF",
 //stone_stairs
-647: "",
+647: "BABABAFF",
 //stonecutter
 //690: "",
 //stripped_acacia_log
@@ -1570,13 +1570,13 @@ let blocks = {
 //stripped_crimson_stem
 707: "",
 //stripped_dark_oak_log
-48: "",
+48: "928269FF",
 //stripped_dark_oak_wood
-61: "",
+61: "928269FF",
 //stripped_jungle_log
-46: "",
+46: "D6BF9CFF",
 //stripped_jungle_wood
-59: "",
+59: "D6BF9CFF",
 //stripped_oak_log
 49: "",
 //stripped_oak_wood
@@ -1606,7 +1606,7 @@ let blocks = {
 //target
 743: "",
 //terracotta
-421: "",
+421: "CBA48DFF",
 //tinted_glass
 819: "736D75AA",
 //tnt
@@ -1656,7 +1656,7 @@ let blocks = {
 //warped_nylium
 701: "",
 //warped_planks
-719: "",
+719: "72ACA7FF",
 //warped_pressure_plate
 //723: "",
 //warped_roots
@@ -1664,9 +1664,9 @@ let blocks = {
 //warped_sign
 //737: "",
 //warped_slab
-721: "",
+721: "72ACA7FF",
 //warped_stairs
-731: "",
+731: "72ACA7FF",
 //warped_stem
 697: "",
 //warped_trapdoor
@@ -1712,7 +1712,7 @@ let blocks = {
 //waxed_weathered_cut_copper_stairs
 849: "",
 //weathered_copper
-823: "",
+823: "AECBB0FF",
 //weathered_cut_copper
 829: "AFC7AEFF",
 //weathered_cut_copper_slab
@@ -1774,7 +1774,7 @@ let blocks = {
 //yellow_carpet
 //409: "",
 //yellow_concrete
-560: "",
+560: "F9D852FF",
 //yellow_concrete_powder
 576: "",
 //yellow_glazed_terracotta
@@ -1790,7 +1790,7 @@ let blocks = {
 //yellow_wall_banner
 //450: "",
 //yellow_wool
-112: "",
+112: "FCE46EFF",
 //zombie_head
 331: "",
 //zombie_wall_head

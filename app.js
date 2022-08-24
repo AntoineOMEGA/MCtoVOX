@@ -31,7 +31,7 @@ var schematic;
 
 async function loadSchematic () {
     // Read a schematic
-    schematic = await Schematic.read(await fs.promises.readFile('examples/military_scout.schem'));
+    schematic = await Schematic.read(await fs.promises.readFile('examples/pirate_destroyer.schem'));
 
     emptyVox.size.x = schematic.size.x;
     emptyVox.size.y = schematic.size.y;
@@ -40,6 +40,7 @@ async function loadSchematic () {
     let count = 0;
 
     let blockPalette = [];
+    let invalidBlockIds = [];
 
     for (let i = 0; i < 256; i++) {
         emptyVox.rgba.values.push({r: 0, g: 0, b: 0, a: 255});
@@ -53,10 +54,9 @@ async function loadSchematic () {
                     let blockId = mcData.blocksByStateId[schematic.palette[schematic.blocks[count]]].id;
                     
                     let paletteIndex = blockPalette.indexOf(blockId);
-                    console.log(paletteIndex);
 
                     if (paletteIndex != -1) {
-                        emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex });
+                        emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex+1 });
                     } else {
                         let hexColor = blockColors[blockId];                      
                         if (hexColor != null && hexColor != undefined && hexColor != "") {
@@ -69,8 +69,11 @@ async function loadSchematic () {
                             blockPalette.push(blockId);
                             paletteIndex = blockPalette.indexOf(blockId);
                             emptyVox.rgba.values[paletteIndex] = {r: R, g: G, b: B, a: A};
-                            emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex });
-                            
+                            emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex+1 });   
+                        } else {
+                            if (invalidBlockIds.indexOf(blockId) == -1) {
+                                invalidBlockIds.push(blockId);
+                            }
                         }
                     }
                 }
@@ -79,18 +82,17 @@ async function loadSchematic () {
         }
     }
 
-    console.log(blockPalette);
     emptyVox.xyzi.numVoxels = emptyVox.xyzi.values.length;
-    console.log(emptyVox);
     
     let voxStream = fs.createWriteStream("frigate.vox");
     saveVox(emptyVox, voxStream).then(()=>{voxStream.end()})
+    console.log(invalidBlockIds);
 }
 
 loadSchematic();
 
 const app = express();
-let port = 5000;
+let port = 5001;
 app.listen(port, function () {
     console.log(`Listening on port ${port}`);
 });
