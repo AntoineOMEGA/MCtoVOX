@@ -688,7 +688,7 @@ let blocks = {
 //gray_carpet
 //412: "",
 //gray_concrete
-563: "",
+563: "808387FF",
 //gray_concrete_powder
 579: "95999CFF",
 //gray_glazed_terracotta

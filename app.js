@@ -31,7 +31,7 @@ var schematic;
 
 async function loadSchematic () {
     // Read a schematic
-    schematic = await Schematic.read(await fs.promises.readFile('examples/military_bomber.schem'));
+    schematic = await Schematic.read(await fs.promises.readFile('examples/military_scout.schem'));
 
     emptyVox.size.x = schematic.size.x;
     emptyVox.size.y = schematic.size.y;
