@@ -27,14 +27,6 @@ var emptyVox = {
     layr: {}
 };
 
-let palette;
-fs.readFile('./frigate.vox', (error, buffer) => {
-    if (error) throw error;
-        let data = readVox(buffer);
-        palette = data.rgba.values;
-        console.log(data);
-});
-
 var schematic;
 
 async function loadSchematic () {
@@ -47,23 +39,25 @@ async function loadSchematic () {
 
     let count = 0;
 
-    let blockPalette = {};
-    let blockCount = 0;
+    let blockPalette = [];
+
+    for (let i = 0; i < 256; i++) {
+        emptyVox.rgba.values.push({r: 0, g: 0, b: 0, a: 255});
+    }
 
     for (let cY = 0; cY < schematic.size.y; cY++) {
         for (let cZ = 0; cZ < schematic.size.z; cZ++) {
             for (let cX = 0; cX < schematic.size.x; cX++) {
 
-                //Color Selector
                 if (schematic.palette[schematic.blocks[count]] != 0) {
                     let blockId = mcData.blocksByStateId[schematic.palette[schematic.blocks[count]]].id;
-                    let colorIndex;
-                    if (blockPalette[blockId] != undefined) {
-                        colorIndex = blockPalette[blockId];
-                        emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: colorIndex });
-                    } else {
-                        blockPalette[blockId] = blockCount;
+                    
+                    let paletteIndex = blockPalette.indexOf(blockId);
+                    console.log(paletteIndex);
 
+                    if (paletteIndex != -1) {
+                        emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex });
+                    } else {
                         let hexColor = blockColors[blockId];                      
                         if (hexColor != null && hexColor != undefined && hexColor != "") {
                             hexColor = hexColor.match(/.{1,2}/g);
@@ -72,9 +66,11 @@ async function loadSchematic () {
                             let B = parseInt(hexColor[2], 16);
                             let A = parseInt(hexColor[3], 16);
 
-                            colorIndex = blockPalette[blockId];
-                            emptyVox.rgba.values.push({r: R, g: G, b: B, a: A});
-                            emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: colorIndex });
+                            blockPalette.push(blockId);
+                            paletteIndex = blockPalette.indexOf(blockId);
+                            emptyVox.rgba.values[paletteIndex] = {r: R, g: G, b: B, a: A};
+                            emptyVox.xyzi.values.push({ x:cX, y:cY, z:cZ, i: paletteIndex });
+                            
                         }
                     }
                 }
@@ -83,6 +79,7 @@ async function loadSchematic () {
         }
     }
 
+    console.log(blockPalette);
     emptyVox.xyzi.numVoxels = emptyVox.xyzi.values.length;
     console.log(emptyVox);
     
